@@ -96,7 +96,7 @@ function App() {
     ['', '', ''],
     ['', '', ''],
     ['', '', ''],
-  ]);}}>Reset game</button>
+  ]);}}>Reset</button>
         <Toaster  
             position="top-center"
             reverseOrder={false}
