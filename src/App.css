@@ -1,0 +1,65 @@
+.app {
+  background: #000;
+  color: #fff;
+  height: 100vh;
+}
+
+.header {
+  height: 8vh;
+  border-bottom: 1px solid #fff;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.alignCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 92vh;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.row {
+  display: flex;
+  height: 20vh;
+}
+
+.cell {
+  width: 25vw;
+  color: orange;
+  font-size: 6rem;
+  cursor: pointer;
+}
+
+.row-0 {
+  border-bottom: 1px solid #fff;
+}
+.cell-0 {
+  border-right: 1px solid #fff;
+}
+
+.row-1 {
+  border-bottom: 1px solid #fff;
+}
+.cell-1 {
+  border-right: 1px solid #fff;
+}
+
+button {
+  height: 8vh;
+  width: 30vw;
+  background: blueviolet;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  color: #000;
+  font-size: 2rem;
+  flex-direction: row;
+}
