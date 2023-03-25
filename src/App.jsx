@@ -63,7 +63,7 @@ function App() {
     }
 
     if (count === 9){
-      setWinner("XO Drawn!!!")
+      setWinner("Una don draw this game!!!")
     }
   };
 
